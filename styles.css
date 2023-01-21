@@ -1,0 +1,18 @@
+.main{
+    color: black;
+}
+
+
+/*nav bar*/
+.nav-unorderedList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 75px;
+    grid-area: header;
+}
