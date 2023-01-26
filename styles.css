@@ -2,6 +2,36 @@
     color: black;
 }
 
+.container{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "contact header"
+    "contact main"
+    "contact footer"
+}
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+}
+
+.contact{
+    grid-area: contact;
+
+    justify-self: stretch;
+    /*align-content: center;*/
+
+    background-color: green;
+}
+
+.footer{
+    grid-area: footer;
+    justify-self: center;
+}
 
 /*nav bar*/
 .nav-unorderedList {
