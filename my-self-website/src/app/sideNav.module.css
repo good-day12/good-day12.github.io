@@ -1,0 +1,5 @@
+.sideNav {
+    grid-area: sideNav;
+    color: red;
+    background-color: aqua;
+}

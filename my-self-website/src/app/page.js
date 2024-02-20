@@ -5,9 +5,11 @@ import SideNav from "./sideNav";
 export default function Home() {
 
   return (
-    <div>
-      <div className={styles.test}>Home Page, yuck </div>
-      <a href = "/dashboard">Dashboard hopefully </a>
-    </div>
+
+      <div className={styles.test}>
+        <div>Home Page, yuck </div>
+        <a href = "/dashboard">Dashboard hopefully </a>
+      </div>
+
   );
 }
