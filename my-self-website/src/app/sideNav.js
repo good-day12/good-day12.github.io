@@ -5,7 +5,10 @@ export default function SideNav() {
 
     return (
       <div>
-        <div className={styles.sideNav}>Side Navigation: </div>
+        <div className={styles.sideNav}>Side Navigation: 
+            <a className= {styles.sideNavLinks} href = "/dashboard">Dashboard from the SideNav hopefully </a>
+        </div>
+
       </div>
     );
   }

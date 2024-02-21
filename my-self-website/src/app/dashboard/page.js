@@ -1,10 +1,10 @@
-import SideNav from "../sideNav";
+import styles from "@/app/test.module.css"
 
 export default function Dashboard() {
 
     return (
 
-      <div>?Dashboard?</div>
+      <div className={styles.test}>?Dashboard?</div>
 
     );
   }

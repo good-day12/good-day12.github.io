@@ -1,5 +1,19 @@
 .sideNav {
     grid-area: sideNav;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     color: red;
     background-color: aqua;
+}
+
+.sideNavLinks {
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
