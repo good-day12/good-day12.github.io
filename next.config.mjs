@@ -12,7 +12,7 @@ const nextConfig = {
      *
      * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
      */
-    basePath: "/https://github.com/good-day12/good-day12.github.io", ///good-day12.github.io
+    basePath: "/good-day12.github.io", ///good-day12.github.io   /https://github.com/good-day12/good-day12.github.io
   
     /**
      * Disable server-based image optimization. Next.js does not support
