@@ -1,19 +1,27 @@
-.sideNav {
+.sideNav { /* This is the object that will hold all the links */
     grid-area: sideNav;
 
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
+
+    flex-basis: 0;
 
     color: red;
     background-color: aqua;
 }
 
-.sideNavLinks {
+.sideNavLinks { /* For each individual link  */
     background-color: blue;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
+    padding: .5rem;
 }

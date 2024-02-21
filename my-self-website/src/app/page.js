@@ -6,9 +6,8 @@ export default function Home() {
 
   return (
 
-      <div className={styles.test}>
+      <div className={styles.mainContent}>
         <div>Home Page, yuck </div>
-        <a href = "/dashboard">Dashboard hopefully </a>
       </div>
 
   );
