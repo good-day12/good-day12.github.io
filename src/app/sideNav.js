@@ -12,7 +12,7 @@ export default function SideNav() {
           width={500}
           height={500}
           />
-          <a className= {styles.sideNavLinks} href = "/good-day12.github.io/">Home</a>
+          <a className= {styles.sideNavLinks} href = "/">Home</a>
           <a className= {styles.sideNavLinks} href = "/good-day12.github.io/aboutMe">About Me</a>
           <a className= {styles.sideNavLinks} href = "/good-day12.github.io/aboutMe">USMC Experience</a>
           <a className= {styles.sideNavLinks} href = "/good-day12.github.io/aboutMe">Projects</a>
